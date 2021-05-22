@@ -1,0 +1,75 @@
+def payment(cardno,name):
+    print(cardno)
+    print(name)
+    return "True"
+payment(10,20)
+
+def cancelTicket(ticketno):
+    print(ticketno)
+    refund =150
+    return refund
+cancelTicket(11200)
+
+def f1(a,b):
+    print(a+b)
+
+f1(2,8)
+
+def sum(a,b,c):
+    d=a+b+c
+    return d
+sum(2,5,7)
+
+def sum(a,b):
+    c=a+b
+    print("Sum is :",c)
+
+sum(4,6)
+
+def fun1(x):
+    print(x)
+fun1(3)
+
+def name(fname,iname):
+    fullname =fname+iname
+    print("Full Name is :",fullname)
+name("avinash","gupta")
+
+def interestAmt(amount,time,r):
+    interest=amount*time*r/100
+    print("Interest is :",interest)
+interestAmt(3,3,3)
+
+def average(a,b,c,d,e):
+    avg=(a+b+c+d+e)/5
+    print("avarage is : ",avg)
+
+average(2,4,5,8,9)
+
+def average(total):
+    avg =total/3
+    print("Average is :",avg)
+average(2)
+
+
+def area(r):
+    a=3.14*r*r
+    print("circle area :",a)
+area(8)
+
+def calDisAmt(billAmt,d):
+    dAmt = billAmt/100*d
+    print("discount:",dAmt)
+calDisAmt(12000,3)
+
+def empinfo(eid,enmae,sal):
+    print("Emp id is :",eid)
+    print("Emp name :",enmae)
+    print("Emp salay :",sal)
+empinfo(101,"vishnu",25000)
+
+
+def calSquare(n):
+    s=n**2
+    print("Square is :",s)
+calSquare(5) 
